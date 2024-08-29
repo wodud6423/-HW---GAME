@@ -88,6 +88,12 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 
 <img src = image/image05.png>
 
+# :pencil:6. Project Assesment
+
+<img src = image/image06.png>
+
+<img src = image/image07.png>
+
 # Contact
 - 📧 wodud6423@kau.kr
 
