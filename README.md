@@ -103,7 +103,8 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 <a href="link"><img src=image/그림14.gif></a>  
 <a href="link"><img src=image/그림15.gif></a> 
 <a href="link"><img src=image/그림16.gif></a>   
-<figcaption>3개이미지</figcaption></figure>
+<figcaption></figcaption>
+</figure>
 
 #### 버튼입력을 통해 게임 시작 및 랜덤 블록 생성 확인
 #### 버튼 입력 및 스위치 입력을 통한 블록 컨트롤 확인
