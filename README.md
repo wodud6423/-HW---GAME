@@ -36,14 +36,12 @@
 - Reset Parameter Value
 - 게임요소 관련 변수 & key, SW, 7-seg값 초기화
 
-
-### Set Timer
+#### Set Timer
 - Timer interval 10ms로 설정, 필요 register 활성화
 - Set interrupt register enable
 - Dual Buffering for V-SYNC
 - Start Wait roof
 - Button Interrupt 에 따라 Status인 RUN 값이 바뀌며 이에 따라 while roof를 빠져 나오며 실제 테트리스 메인 루프로 이동
-
 
 <img src = image/image02.png>
 
@@ -51,21 +49,35 @@
 - Reset Block Map Parameter
 Ex) 블록 위치, 회전 상태, 종류 변수
 
-### Block Control
+#### Block Control
 - 블록 맵을 참조하여 블록 컨트롤 변수 설정
 
-### Add to Nums, Blockmap
+#### Add to Nums, Blockmap
 - 블록이 틀이나 블록을 뚫으며 비정상적 동작하지 않도록 통제
 
-### Block control
+#### Block control
 - 입력받은 변수와 Timer Interval을 사용, 1초 간격으로 이동하도록 한다.
 - 비정상적 동작 경우 이동, 회전 취소
 
-### Block Stack
+#### Block Stack
 - 블록이 쌓인 경우 Nums 갱신
 
-### Line Remove
+#### Line Remove
 - 한 줄에 block이 모두 쌓인 경우 제거
+
+<img src = image/image03.png>
+
+### 테트리스 END PART
+
+#### PLAY GAME DISPLAY : 
+- 컨트롤 블록을 반영한 출력 블록 맵에 블록 생성, 플레이어 점수를 기록.플레이어 전환하여 게임진행. 
+
+#### GAME END DISPLAY : 
+- 만약 플레이어 2에서 전환되어야하는 경우, 플레이어1 과 플레이어2의 점수를 비교하여 점수가 높은 플레이어를 WIN으로 출력. 
+- 루프를 돌며 계속 Dual Buffering 출력하며 종료.(비긴 경우, DRAW출력)
+
+
+
 
 
 
