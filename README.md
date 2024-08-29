@@ -18,6 +18,7 @@
 # :checkered_flag:2. Project Goal
 
 #### 테트리스 라는 프로그램을 구성하는 내부 함수들 설계
+
 #### - (ex: 블록 쌓기, 쌓인 줄 제거, 종료 선언, 다음 블록 예고)
 
 #### Timer interval 설정 후 Interrupt를 이용한 게임 속도 조절
@@ -30,6 +31,7 @@
 # :wrench:3.Project System Design
 
 <img src = image/image01.png>
+
 ### 테트리스 START PART
 - Reset Parameter Value
 - 게임요소 관련 변수 & key, SW, 7-seg값 초기화
@@ -43,9 +45,28 @@
 - Button Interrupt 에 따라 Status인 RUN 값이 바뀌며 이에 따라 while roof를 빠져 나오며 실제 테트리스 메인 루프로 이동
 
 
+<img src = image/image02.png>
 
+### 테트리스 MAIN PART
+- Reset Block Map Parameter
+Ex) 블록 위치, 회전 상태, 종류 변수
 
-![image](https://github.com/user-attachments/assets/751bb074-7124-460d-a5e6-92d716d557cc)
+### Block Control
+- 블록 맵을 참조하여 블록 컨트롤 변수 설정
+
+### Add to Nums, Blockmap
+- 블록이 틀이나 블록을 뚫으며 비정상적 동작하지 않도록 통제
+
+### Block control
+- 입력받은 변수와 Timer Interval을 사용, 1초 간격으로 이동하도록 한다.
+- 비정상적 동작 경우 이동, 회전 취소
+
+### Block Stack
+- 블록이 쌓인 경우 Nums 갱신
+
+### Line Remove
+- 한 줄에 block이 모두 쌓인 경우 제거
+
 
 
 # 4. Project Process
