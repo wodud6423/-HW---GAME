@@ -86,7 +86,7 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 
 # :pencil:4. Design Technic
 
-<img src = image/image04.png>
+<img src = image/image05.png>
 
 # Contact
 - 📧 wodud6423@kau.kr
