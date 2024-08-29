@@ -110,16 +110,18 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 #### 버튼 입력 및 스위치 입력을 통한 블록 컨트롤 확인
 #### 블록 쌓임 및 블록이 다 찬 라인 제거 확인
 
+<figure class="forth"> 
+<a href="link"><img src=image/그림17.gif></a> 
+<a href="link"><img src=image/그림18.gif></a>  
+<a href="link"><img src=image/그림19.gif></a> 
+<a href="link"><img src=image/그림20.gif></a>   
+<figcaption></figcaption>
+</figure>
 
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/3f4b0189-a50d-437e-8742-6b6033e56197)
-
-
+#### HEX7-0을 통해 각 플레이어의 점수 출력
+#### 플레이어 전환 및 각 플레이어의 게임 종료 확인
+#### 플레이 종료 시 각 플레이어의 점수 비교 후 이긴 플레이어 출력
+#### Full Game에 대한 동작 확인(3.3배속)
 
 # Contact
 - 📧 wodud6423@kau.kr
