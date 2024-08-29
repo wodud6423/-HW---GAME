@@ -2,7 +2,7 @@
 
 
 <!--프로젝트 대문 이미지-->
-![Project Title](img/projecttitle.png)
+![Project Title](image/Title.gif)
 
 ## :dvd:블록체인을 이용한 분산형 DB로부터의 강아지 비문 조회 서비스
 
