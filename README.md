@@ -84,41 +84,9 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 
 ---
 
-#
+# :pencil:4. Design Technic
 
-
-
-
-# 4. Project Process
-
-## 🦮비문 영상 처리부
-![Project Title](img/비문영상처리설명01.png)
-
-![Project Title](img/비문영상처리설명02.png)
-
-
-## 🚪블록 체인 구현부 
-![Project Title](img/블록체인구현설명01.png)
-
-![Project Title](img/블록체인구현설명02.png)
-
-![Project Title](img/블록체인구현설명03.png)
-
-![Project Title](img/블록체인구현설명04.png)
-
-![Project Title](img/블록체인블록구조01.png)
-
-(블록체인 블록 구조)
-
-
-## 📱어플리케이션 구현
-![Project Title](img/어플리케이션설명01.png)
-
-![Project Title](img/어플리케이션설명02.png)
-
-![Project Title](img/어플리케이션설명03.png)
-
-![Project Title](img/어플리케이션설명04.png)
+<img src = image/image04.png>
 
 
 # Contact
