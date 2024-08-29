@@ -15,17 +15,39 @@
 
 #### - 앞선 동기를 충족하기에 테트리스가 좋은 주제라 생각하였으며 Interrupt와 Timer interval 의 활용성과 프로젝트 완성 기간을 고려하여 여러 주제 중 테트리스를 선정하였습니다.
 
+# :checkered_flag:2. Project Goal
 
-## :wrench:Project System Design
+#### 테트리스 라는 프로그램을 구성하는 내부 함수들 설계
+#### - (ex: 블록 쌓기, 쌓인 줄 제거, 종료 선언, 다음 블록 예고)
 
-# 3. 📊Technologies Stack
+#### Timer interval 설정 후 Interrupt를 이용한 게임 속도 조절
 
-![Project Title](img/기술스택사진.png)
+#### POLLED IO 방식을 이용한 블록 이동 및 회전 상태 변환
 
-- [FLASK](https://flask.palletsprojects.com/en/3.0.x/)
-- [AWS EC2](https://aws.amazon.com/ko/pm/ec2/?gclid=Cj0KCQjw2ou2BhCCARIsANAwM2Fvl1JEgLF-nt9pi6LoAAjTDbIZtSxlKan5_r2ELY6JUkk748ac8A0aAvxpEALw_wcB&trk=4c74fd91-5632-4f18-ac76-a6c66c92e185&sc_channel=ps&ef_id=Cj0KCQjw2ou2BhCCARIsANAwM2Fvl1JEgLF-nt9pi6LoAAjTDbIZtSxlKan5_r2ELY6JUkk748ac8A0aAvxpEALw_wcB:G:s&s_kwcid=AL!4422!3!477203497843!e!!g!!aws%20ec2!11549843702!111422708806) 
-- [Android Studio](https://developer.android.com/studio?gad_source=1&gclid=Cj0KCQjw2ou2BhCCARIsANAwM2ElJwpX8AmXHdmDqeFXJeiNQMz6gyhSunPf7V0LzFr2tV11ZdIBClkaArGyEALw_wcB&gclsrc=aw.ds&hl=ko) 
-- [Dlib](https://dlib.net/)
+#### Button interrupt를 이용한 게임 실행
+
+
+# :wrench:3.Project System Design
+
+<img src = image/image01.png>
+### 테트리스 START PART
+- Reset Parameter Value
+- 게임요소 관련 변수 & key, SW, 7-seg값 초기화
+
+
+### Set Timer
+- Timer interval 10ms로 설정, 필요 register 활성화
+- Set interrupt register enable
+- Dual Buffering for V-SYNC
+- Start Wait roof
+- Button Interrupt 에 따라 Status인 RUN 값이 바뀌며 이에 따라 while roof를 빠져 나오며 실제 테트리스 메인 루프로 이동
+
+
+
+
+![image](https://github.com/user-attachments/assets/751bb074-7124-460d-a5e6-92d716d557cc)
+
+
 # 4. Project Process
 
 ## 🦮비문 영상 처리부
