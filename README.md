@@ -95,6 +95,31 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 
 <img src = image/image07.png>
 
+# :exclamation:5. Project Demonstration
+
+### 구현사항
+
+<figure class="thrid">  
+<a href="link"><img src=image/그림14.gif></a>  
+<a href="link"><img src=그림15.gif></a> 
+<a href="link"><img src=그림16.gif></a>   
+<figcaption>3개이미지</figcaption></figure>
+
+#### 버튼입력을 통해 게임 시작 및 랜덤 블록 생성 확인
+#### 버튼 입력 및 스위치 입력을 통한 블록 컨트롤 확인
+#### 블록 쌓임 및 블록이 다 찬 라인 제거 확인
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/3f4b0189-a50d-437e-8742-6b6033e56197)
+
+
+
 # Contact
 - 📧 wodud6423@kau.kr
 
