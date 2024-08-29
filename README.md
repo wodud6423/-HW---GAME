@@ -30,6 +30,8 @@
 
 # :wrench:3.Project System Design
 
+---
+
 <img src = image/image01.png>
 
 ### 테트리스 START PART
@@ -42,6 +44,8 @@
 - Dual Buffering for V-SYNC
 - Start Wait roof
 - Button Interrupt 에 따라 Status인 RUN 값이 바뀌며 이에 따라 while roof를 빠져 나오며 실제 테트리스 메인 루프로 이동
+
+---
 
 <img src = image/image02.png>
 
@@ -64,6 +68,8 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 
 #### Line Remove
 - 한 줄에 block이 모두 쌓인 경우 제거
+
+---
 
 <img src = image/image03.png>
 
