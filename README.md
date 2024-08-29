@@ -101,8 +101,8 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 
 <figure class="thrid">  
 <a href="link"><img src=image/그림14.gif></a>  
-<a href="link"><img src=그림15.gif></a> 
-<a href="link"><img src=그림16.gif></a>   
+<a href="link"><img src=image/그림15.gif></a> 
+<a href="link"><img src=image/그림16.gif></a>   
 <figcaption>3개이미지</figcaption></figure>
 
 #### 버튼입력을 통해 게임 시작 및 랜덤 블록 생성 확인
