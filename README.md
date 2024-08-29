@@ -111,10 +111,10 @@ Ex) 블록 위치, 회전 상태, 종류 변수
 #### 블록 쌓임 및 블록이 다 찬 라인 제거 확인
 
 <figure class="forth"> 
+<a href="link"><img src=image/그림17.gif></a> 
 <a href="link"><img src=image/그림18.gif></a> 
 <a href="link"><img src=image/그림19.gif></a>  
 <a href="link"><img src=image/그림20.gif></a> 
-<a href="link"><img src=image/그림21.gif></a>   
 <figcaption></figcaption>
 </figure>
 
